@@ -1,6 +1,3 @@
-## Routing 
-[React Router V4](https://www.npmjs.com/package/react-router), 
-
 ## 303 Software Assessment
 
 ## Setup Guide
