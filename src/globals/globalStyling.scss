@@ -1,0 +1,47 @@
+@import "./reset.scss";
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+a {
+  color: rgba(10,100,255,1);
+  font-weight: 300;
+}
+
+a {
+  color: rgb(150,150,150);
+  transition: 300ms;
+  text-decoration: none;
+  &:Hover {
+    transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1) ;
+    color:rgb(55,105,255);
+  }
+}
+
+html,
+body {
+  background: #333333;
+  h1 {
+    color: #ffff;
+  }
+}
+
+
+.container {
+  max-width: 1080px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.highlightBlock {
+    margin-top: 80px;
+    background-color: #444444;
+    padding: 20px;
+    box-sizing: border-box;
+}
+li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

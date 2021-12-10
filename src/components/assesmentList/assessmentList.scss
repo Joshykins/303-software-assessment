@@ -1,0 +1,22 @@
+.assessmentList {
+    table {
+        width: 100%;
+    }
+    tr {
+        &.loading {
+            text-align: center;
+        }
+    }
+    th, td {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    th {
+        border-bottom: 1px solid white;
+        text-align: left;
+    }
+    &Loading {
+        width: 100%;
+        text-align: center;
+    }
+}
